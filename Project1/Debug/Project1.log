@@ -1,0 +1,38 @@
+﻿Build started 21/11/2014 12:48:02.
+     1>Project "C:\Users\SocksUp\SkyDrive\Devtools\SDLTest\SDLTest\Project1\Project1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\devtools\SDL\SDL2-devel-2.0.0-VC\SDL2-2.0.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameObject.cpp Game.cpp GameObjectFactory.cpp Layer.cpp main.cpp Level.cpp GameObjectParameters.cpp Player.cpp PlayerFactory.cpp TileLayer.cpp TinyXML2.cpp Vector2D.cpp
+         Vector2D.cpp
+         TinyXML2.cpp
+         TileLayer.cpp
+         PlayerFactory.cpp
+         Player.cpp
+         GameObjectParameters.cpp
+         Level.cpp
+     1>c:\users\socksup\skydrive\devtools\sdltest\sdltest\project1\level.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\socksup\skydrive\devtools\sdltest\sdltest\project1\level.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+         Layer.cpp
+         GameObjectFactory.cpp
+         Game.cpp
+         GameObject.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SocksUp\SkyDrive\Devtools\SDLTest\SDLTest\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\devtools\SDL\SDL2-devel-2.0.0-VC\SDL2-2.0.0\lib\x86" SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\SocksUp\SkyDrive\Devtools\SDLTest\SDLTest\Project1\Debug\Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SocksUp\SkyDrive\Devtools\SDLTest\SDLTest\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\GameObject.obj
+         Debug\Game.obj
+         Debug\GameObjectFactory.obj
+         Debug\Layer.obj
+         Debug\main.obj
+         Debug\Level.obj
+         Debug\GameObjectParameters.obj
+         Debug\Player.obj
+         Debug\PlayerFactory.obj
+         Debug\TileLayer.obj
+         Debug\TinyXML2.obj
+         Debug\Vector2D.obj
+         Project1.vcxproj -> C:\Users\SocksUp\SkyDrive\Devtools\SDLTest\SDLTest\Project1\Debug\Project1.exe
+     1>Done Building Project "C:\Users\SocksUp\SkyDrive\Devtools\SDLTest\SDLTest\Project1\Project1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.59
